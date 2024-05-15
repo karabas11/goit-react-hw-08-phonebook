@@ -44,7 +44,7 @@ export const RegisterForm = () => {
         Password
         <Input
           type="password"
-          placeholder="password"
+          placeholder="password > 7 characters"
           variant="filled"
           bg="#f0eafb"
           boxShadow="dark-lg"
@@ -67,7 +67,7 @@ export const RegisterForm = () => {
             '0 0 1px 2px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15)',
         }}
       >
-        Log In
+        Register
       </Button>
     </form>
   );
